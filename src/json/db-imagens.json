@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "url": "https://images.pexels.com/photos/31838993/pexels-photo-31838993/free-photo-of-jovem-mulher-com-rosas-em-fundo-rosa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Mulher com flores",
+        "largura": 400,
+        "altura": 600,
+        "categoria": "pessoa",
+        "cores": ["rosa",  "marrom"],
+        "tags": ["mulher", "flores", "rosa"],
+        "descricao": "Jovem mlher segurando buquê de flores em fundo rosa",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 2,
+        "url": "https://images.pexels.com/photos/5252971/pexels-photo-5252971.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "titulo": "Cachorro fofo",
+        "largura": 400,
+        "altura": 600,
+        "categoria": "animal",
+        "cores": ["marrom", "branco"],
+        "tags": ["cachorro", "fofura", "pug", "cobertor"],
+        "descricao": "Um cachorro da raça pug olha para a câmera deitado em seu cobertor",
+        "autor": {
+            "nome": "Ana Lima",
+            "avatar": "https://i.pravatar.cc/100?img=5"
+        }
+    },
+    {
+        "id": 3,
+        "url": "https://images.pexels.com/photos/1122626/pexels-photo-1122626.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "titulo": "Flores brancas",
+        "largura": 400,
+        "altura": 600,
+        "categoria": "plantas",
+        "cores": ["verde", "cinza", "branco"],
+        "tags": ["montanha", "pôr-do-sol"],
+        "descricao": "Belas flores brancas.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 4,
+        "url": "https://images.pexels.com/photos/32085186/pexels-photo-32085186/free-photo-of-tulipa-magica.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "titulo": "Fotógrafos e tulipas",
+        "largura": 400,
+        "altura": 500,
+        "categoria": "pessoa",
+        "cores": ["verde", "cinza", "branco", "amarelo", "preto", "marrom"],
+        "tags": ["fotografia", "flores", "câmera"],
+        "descricao": "Dois fotógrafos apontam suas câmeras para tulipas amarelas.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 5,
+        "url": "https://images.pexels.com/photos/6557291/pexels-photo-6557291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Bolo de chocolate",
+        "largura": 400,
+        "altura": 500,
+        "categoria": "alimentos",
+        "cores": ["cinza", "branco", "preto", "marrom"],
+        "tags": ["bolo", "chocolate", "amêndoas"],
+        "descricao": "Uma deliciosa fatia de bolo de chocolate com amêndoas.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 6,
+        "url": "https://images.pexels.com/photos/821736/pexels-photo-821736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Gato laranja",
+        "largura": 400,
+        "altura": 600,
+        "categoria": "animal",
+        "cores": ["laranja", "branco", "cinza"],
+        "tags": ["gato", "laranja"],
+        "descricao": "Gato laranja encara a câmera olhando para cima.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 7,
+        "url": "https://images.pexels.com/photos/6579051/pexels-photo-6579051.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Casal em sofá",
+        "largura": 1260,
+        "altura": 750,
+        "categoria": "pessoa",
+        "cores": ["marrom", "preto", "cinza"],
+        "tags": ["casal", "sofá"],
+        "descricao": "Casal sorri descansando em sofá.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 8,
+        "url": "https://images.pexels.com/photos/16824029/pexels-photo-16824029/free-photo-of-arte-parede-muro-cafe.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "titulo": "Pinturas de Van Gogh",
+        "largura": 400,
+        "altura": 600,
+        "categoria": "paisagem",
+        "cores": ["marrom", "preto", "azul", "amarelo", "laranja"],
+        "tags": ["cafeteria", "van gogh", "pinturas", "quadros", "artista"],
+        "descricao": "Quadros na parede de cafeteria de pinturas do artista Van Gogh.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 9,
+        "url": "https://images.pexels.com/photos/2251822/pexels-photo-2251822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Flores com gotas",
+        "largura": 400,
+        "altura": 600,
+        "categoria": "plantas",
+        "cores": ["rosa", "preto"],
+        "tags": ["flores", "rosa", "campo"],
+        "descricao": "Vista próxima de flores cor de rosa com gotas de água.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 10,
+        "url": "https://images.pexels.com/photos/2707010/pexels-photo-2707010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Peixe vermelho",
+        "largura": 1260,
+        "altura": 750,
+        "categoria": "animal",
+        "cores": ["vermelho", "preto"],
+        "tags": ["natureza", "vermelho", "peixe", "aquático"],
+        "descricao": "Pequeno peixe vermelho em fundo preto.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 11,
+        "url": "https://images.pexels.com/photos/2885916/pexels-photo-2885916.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "titulo": "Mulher segurando milkshake",
+        "largura": 1260,
+        "altura": 750,
+        "categoria": "pessoa",
+        "cores": ["rosa", "azul", "vermelho", "marrom"],
+        "tags": ["óculos", "mulher", "milkshake", "cafeteria"],
+        "descricao": "Mulher segura milshake encarando a câmera com seus óculos escuros em cafeteria.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 12,
+        "url": "https://images.pexels.com/photos/32036499/pexels-photo-32036499/free-photo-of-icebergs-impressionantes-flutuando-nas-aguas-da-islandia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Icebergs flutuantes",
+        "largura": 1260,
+        "altura": 750,
+        "categoria": "paisagem",
+        "cores": ["azul", "branco"],
+        "tags": ["icebergs", "frio", "geleiras", "águas", "islândia"],
+        "descricao": "Icebergs flutuam nas águas da Islândia.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 13,
+        "url": "https://images.pexels.com/photos/1759823/pexels-photo-1759823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Casal no por-do-sol",
+        "largura": 1260,
+        "altura": 750,
+        "categoria": "pessoa",
+        "cores": ["preto", "marrom", "laranja"],
+        "tags": ["casal", "pôr-do-sol"],
+        "descricao": "Casal se abraça em bela paisagem do por-do-sol",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 14,
+        "url": "https://images.pexels.com/photos/2406778/pexels-photo-2406778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Moto Scooter rosa",
+        "largura": 400,
+        "altura": 600,
+        "categoria": "objeto",
+        "cores": ["rosa", "branco", "preto"],
+        "tags": ["moto", "parede", "rosa"],
+        "descricao": "Scooter Rosa Estacionada Ao Lado Da Parede De Concreto Rosa",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 15,
+        "url": "https://images.pexels.com/photos/2064662/pexels-photo-2064662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Mulher com donut colorido",
+        "largura": 400,
+        "altura": 600,
+        "categoria": "pessoa",
+        "cores": ["rosa",  "azul"],
+        "tags": ["mulher", "donut", "rosa"],
+        "descricao": "Mulher cobrindo o rosto com donut cor de rosa.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+        {
+        "id": 16,
+        "url": "https://picsum.photos/id/1015/400/600",
+        "titulo": "Montanhas ao entardecer",
+        "largura": 400,
+        "altura": 600,
+        "categoria": "paisagem",
+        "cores": ["azul", "cinza"],
+        "tags": ["montanha", "pôr-do-sol"],
+        "descricao": "Uma bela paisagem montanhosa.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 17,
+        "url": "https://images.pexels.com/photos/32080139/pexels-photo-32080139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Tomates",
+        "largura": 400,
+        "altura": 500,
+        "categoria": "alimento",
+        "cores": ["vermelho", "preto", "verde"],
+        "tags": ["tomate", "mão"],
+        "descricao": "Pessoa segura tomates vermelhos.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 18,
+        "url": "https://images.pexels.com/photos/849403/pexels-photo-849403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Campo de girassóis",
+        "largura": 1260,
+        "altura": 450,
+        "categoria": "paisagem",
+        "cores": ["amarelo", "azul", "verde"],
+        "tags": ["girassol", "flores", "campo"],
+        "descricao": "Paisagem de campo florido com girassóis.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 19,
+        "url": "https://images.pexels.com/photos/1437264/pexels-photo-1437264.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Arara azul",
+        "largura": 400,
+        "altura": 600,
+        "categoria": "animal",
+        "cores": ["amarelo", "azul", "verde", "preto"],
+        "tags": ["arara", "ave", "azul"],
+        "descricao": "Foto focada em arará azul.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    },
+    {
+        "id": 20,
+        "url": "https://images.pexels.com/photos/219692/pexels-photo-219692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Cidade iluminada",
+        "largura": 1260,
+        "altura": 750,
+        "categoria": "paisagem",
+        "cores": ["azul", "laranja", "preto"],
+        "tags": ["edificio", "cidade", "noite", "luzes"],
+        "descricao": "Edificios altos iluminados à noite.",
+        "autor": {
+            "nome": "João Silva",
+            "avatar": "https://i.pravatar.cc/100?img=3"
+        }
+    }
+]

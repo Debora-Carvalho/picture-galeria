@@ -1,0 +1,44 @@
+.cartao-imagem {
+  break-inside: avoid;
+  margin-bottom: 16px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: block;
+}
+
+.imagem-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.imagem-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.imagem-wrapper:hover img {
+  transform: scale(1.05);
+}
+
+.legenda {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  box-sizing: border-box;
+}
+
+.imagem-wrapper:hover .legenda {
+  opacity: 1;
+}
