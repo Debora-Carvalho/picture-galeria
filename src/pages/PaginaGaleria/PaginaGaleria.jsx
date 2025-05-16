@@ -4,76 +4,98 @@ import BarraPesquisa from '../../components/BarraPesquisa/BarraPesquisa.jsx';
 import Galeria from '../../components/Galeria/Galeria.jsx';
 import ModalImagem from '../../components/ModalImagem/ModalImagem.jsx';
 import dadosImagens from '../../json/db-imagens.json';
+import FiltroPesquisa from '../../components/FiltroPesquisa/FiltroPesquisa.jsx';
 
-function PaginaGaleria () {
+function PaginaGaleria() {
   const [imagemSelecionada, setImagemSelecionada] = useState(null);
   const [busca, setBusca] = useState('');
+  const [categoriaFiltro, setCategoriaFiltro] = useState('');
+  const [corFiltro, setCorFiltro] = useState('');
   const [imagensFiltradas, setImagensFiltradas] = useState(dadosImagens);
   const [sugestoes, setSugestoes] = useState([]);
 
   useEffect(() => {
-    if (busca.trim() === '') {
-      setImagensFiltradas(dadosImagens);
-      setSugestoes([]);
-      return;
-    }
+    const buscaLower = busca.trim().toLowerCase();
 
-    const filtro = dadosImagens.filter(imagem => {
-        const buscaLower = busca.toLowerCase();
+    const filtro = dadosImagens.filter((imagem) => {
+      const titulo = imagem.titulo?.toLowerCase() || '';
+      const categoria = imagem.categoria?.toLowerCase() || '';
+      const cores = Array.isArray(imagem.cores) ? imagem.cores.map(c => c.toLowerCase()) : [];
+      const tags = Array.isArray(imagem.palavrasChave) ? imagem.palavrasChave.map(t => t.toLowerCase()) : [];
 
-        const titulo = imagem.titulo ? imagem.titulo.toLowerCase() : '';
-        const palavras = Array.isArray(imagem.palavrasChave)
-            ? imagem.palavrasChave.map(chave => chave.toLowerCase())
-            : [];
+      const correspondeBusca =
+        !buscaLower ||
+        titulo.includes(buscaLower) ||
+        categoria.includes(buscaLower) ||
+        cores.some(cor => cor.includes(buscaLower)) ||
+        tags.some(tag => tag.includes(buscaLower));
 
-        return (
-            titulo.includes(buscaLower) ||
-            palavras.some(chave => chave.includes(buscaLower))
-        );
+      const correspondeCategoria = !categoriaFiltro || categoria === categoriaFiltro.toLowerCase();
+      const correspondeCor = !corFiltro || cores.includes(corFiltro.toLowerCase());
+
+      return correspondeBusca && correspondeCategoria && correspondeCor;
     });
 
     setImagensFiltradas(filtro);
 
-    // Montar sugestões únicas (pode ser títulos e palavras-chave)
-    const titulos = dadosImagens
-    .map(img => img.titulo)
-    .filter(Boolean);
+    // Geração de sugestões para autocompletar
+    const titulos = dadosImagens.map((img) => img.titulo).filter(Boolean);
+    const categorias = dadosImagens.map((img) => img.categoria).filter(Boolean);
+    // Aqui pegamos as cores corretas (array 'cores'), extraindo e "achatando"
+    const cores = dadosImagens.flatMap((img) => Array.isArray(img.cores) ? img.cores : []).filter(Boolean);
+    const tags = dadosImagens
+      .flatMap((img) =>
+        Array.isArray(img.palavrasChave) ? img.palavrasChave : []
+      )
+      .filter(Boolean);
 
-    const palavras = dadosImagens
-    .flatMap(img => Array.isArray(img.palavrasChave) ? img.palavrasChave : [])
-    .filter(Boolean);
-
-    const tudo = [...titulos, ...palavras];
-
-    // Filtrar itens que contenham o texto da busca
-    const filtradoSugestoes = tudo.filter(item =>
-      item.toLowerCase().includes(busca.toLowerCase())
+    const tudo = [...titulos, ...categorias, ...cores, ...tags];
+    const sugestoesFiltradas = tudo.filter((item) =>
+      item.toLowerCase().includes(buscaLower)
     );
 
-    // Deixar único e limitar a 10 sugestões
-    const unico = [...new Set(filtradoSugestoes)].slice(0, 10);
-    setSugestoes(unico);
+    const sugestoesUnicas = [...new Set(sugestoesFiltradas)].slice(0, 10);
+    setSugestoes(sugestoesUnicas);
+  }, [busca, categoriaFiltro, corFiltro]);
 
-  }, [busca]);
-
-  // Quando usuário clica na sugestão, ajusta o valor da busca para ela
   const aoSelecionarSugestao = (sugestao) => {
     setBusca(sugestao);
   };
 
+  const aoPesquisar = () => {
+    setBusca((prevBusca) => prevBusca);
+  };
+
   return (
     <>
-      <BarraPesquisa 
-        valor={busca} 
-        aoMudar={setBusca} 
-        sugestões={sugestoes} 
-        aoSelecionar={aoSelecionarSugestao} 
-      />
+      <div className="container-galeria-filtros">
+        <BarraPesquisa
+          className='galeria-filtros-busca'
+          valor={busca}
+          aoMudar={setBusca}
+          sugestões={sugestoes}
+          aoSelecionar={aoSelecionarSugestao}
+          aoPesquisar={aoPesquisar}
+        />
+
+        <FiltroPesquisa
+          categoriaSelecionada={categoriaFiltro}
+          setCategoria={setCategoriaFiltro}
+          corSelecionada={corFiltro}
+          setCor={setCorFiltro}
+        />
+      </div>
+
+    {imagensFiltradas.length > 0 ? (
       <Galeria imagens={imagensFiltradas} aoClicar={setImagemSelecionada} />
+    ) : (
+      <p style={{ textAlign: 'center', marginTop: '2rem' }}>
+        Nenhuma imagem encontrada.
+      </p>
+    )}
       <ModalImagem imagem={imagemSelecionada} aoFechar={() => setImagemSelecionada(null)} />
     </>
   );
-};
+}
 
 export default PaginaGaleria;
-

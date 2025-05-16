@@ -1,85 +1,53 @@
-.barra-pesquisa {
+.barra-pesquisa-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.campo-input-wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background-color: #fff;
 }
 
 .input-pesquisa {
   flex: 1;
-  padding: 8px 12px;
-  font-size: 1rem;
-  border: 2px solid #ccc;
-  border-radius: 8px 0 0 8px;
-  outline: none;
-  transition: border-color 0.3s;
-}
-
-.input-pesquisa:focus {
-  border-color: #ff69b4;
-}
-
-.botao-pesquisa {
-  padding: 8px 16px;
-  background-color: #ff69b4;
   border: none;
-  color: white;
-  font-size: 1.1rem;
-  border-radius: 0 8px 8px 0;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.botao-pesquisa:hover {
-  background-color: #ff85c1;
-}
-
-
-.barra-pesquisa-container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-  margin-bottom: 20px;
-}
-
-.input-pesquisa {
-  width: 100%;
-  padding: 8px 12px;
-  font-size: 1rem;
-  border: 2px solid #ccc;
-  border-radius: 8px;
   outline: none;
-  transition: border-color 0.3s;
+  padding: 8px;
+  font-size: 16px;
 }
 
-.input-pesquisa:focus {
-  border-color: #ff69b4;
+.icone-pesquisa,
+.icone-limpar {
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0 6px;
+  color: #777;
 }
 
 .lista-sugestoes {
   position: absolute;
-  top: 38px;
+  top: 100%;
   left: 0;
   right: 0;
-  background-color: white;
-  border: 1px solid #ddd;
+  background: white;
+  border: 1px solid #ccc;
   border-top: none;
   max-height: 200px;
   overflow-y: auto;
-  border-radius: 0 0 8px 8px;
   z-index: 10;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .lista-sugestoes li {
-  padding: 8px 12px;
+  padding: 8px;
   cursor: pointer;
-  border-bottom: 1px solid #eee;
 }
 
 .lista-sugestoes li:hover {
-  background-color: #ff85c1;
-  color: white;
+  background-color: #eee;
 }
-

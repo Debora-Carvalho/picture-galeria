@@ -9,7 +9,7 @@ function ImagemCard({ imagem, aoClicar }) {
 
         <div className="legenda">
           <h3>{imagem.titulo}</h3>
-          <p>{imagem.largura}x{imagem.altura}px</p>
+          <p>{imagem.largura} x {imagem.altura}px</p>
         </div>
         
       </div>
