@@ -11,7 +11,7 @@
         "descricao": "Jovem mlher segurando buquê de flores em fundo rosa",
         "autor": {
             "nome": "João Silva",
-            "avatar": "https://i.pravatar.cc/100?img=3"
+            "avatar": "https://i.pravatar.cc/100?img=8"
         }
     },
     {
@@ -40,8 +40,8 @@
         "tags": ["montanha", "pôr-do-sol"],
         "descricao": "Belas flores brancas.",
         "autor": {
-            "nome": "João Silva",
-            "avatar": "https://i.pravatar.cc/100?img=3"
+            "nome": "Robson Matos",
+            "avatar": "https://i.pravatar.cc/100?img=7"
         }
     },
     {
@@ -55,8 +55,8 @@
         "tags": ["fotografia", "flores", "câmera"],
         "descricao": "Dois fotógrafos apontam suas câmeras para tulipas amarelas.",
         "autor": {
-            "nome": "João Silva",
-            "avatar": "https://i.pravatar.cc/100?img=3"
+            "nome": "Simone Braga",
+            "avatar": "https://i.pravatar.cc/100?img=b"
         }
     },
     {
@@ -265,8 +265,8 @@
         "tags": ["girassol", "flores", "campo"],
         "descricao": "Paisagem de campo florido com girassóis.",
         "autor": {
-            "nome": "João Silva",
-            "avatar": "https://i.pravatar.cc/100?img=3"
+            "nome": "Otávio Bragança",
+            "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         }
     },
     {
@@ -280,8 +280,8 @@
         "tags": ["arara", "ave", "azul"],
         "descricao": "Foto focada em arará azul.",
         "autor": {
-            "nome": "João Silva",
-            "avatar": "https://i.pravatar.cc/100?img=3"
+            "nome": "Arthur Silva",
+            "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         }
     },
     {
@@ -295,8 +295,38 @@
         "tags": ["edificio", "cidade", "noite", "luzes"],
         "descricao": "Edificios altos iluminados à noite.",
         "autor": {
-            "nome": "João Silva",
-            "avatar": "https://i.pravatar.cc/100?img=3"
+            "nome": "Alex Barbosa",
+            "avatar": "https://i.pravatar.cc/100?img=k"
+        }
+    },
+    {
+        "id": 21,
+        "url": "https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Maquiagem brilhante",
+        "largura": 400,
+        "altura": 500,
+        "categoria": "pessoa",
+        "cores": ["azul", "roxo"],
+        "tags": ["mulher", "maquiagem", "gliter", "brilho", "luz colorida"],
+        "descricao": "Foto de moça negra com maquiagem brilhante em luz azul.",
+        "autor": {
+            "nome": "Jessica Souza",
+            "avatar": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+    },
+    {
+        "id": 22,
+        "url": "https://images.pexels.com/photos/957312/chess-checkmated-chess-pieces-black-white-957312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Tabuleiro de xadrez",
+        "largura": 400,
+        "altura": 500,
+        "categoria": "objeto",
+        "cores": ["preto", "branco", "cinza"],
+        "tags": ["xadrez", "tabuleiro", "mesa", "jogo"],
+        "descricao": "Fotografia em tons de cinza de tabuleiro de jogo de xadrez.",
+        "autor": {
+            "nome": "Anástacia Gomes",
+            "avatar": "https://i.pravatar.cc/100?img=f"
         }
     }
 ]
