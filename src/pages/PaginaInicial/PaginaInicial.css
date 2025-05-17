@@ -1,35 +1,64 @@
 .pagina-inicial {
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-  url('https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa') no-repeat center center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-  padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/images/background-flores-rosa.jpg');
+    /* background-image: url('../../assets/images/background-flores-laranja.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
 }
 
-.conteudo {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 40px;
-  border-radius: 12px;
-  max-width: 600px;
+.pagina-inicial-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
 }
 
-.botao-explorar {
-  margin-top: 20px;
-  padding: 12px 24px;
-  font-size: 1rem;
-  background-color: #ff69b4;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.pagina-inicial-conteudo__titulo {
+    font-family: 'PinkSunset-Regular', sans-serif;
+    font-feature-settings: "liga" 1, "ss01" 1, "ss02" 1, "ss03" 1;
+    font-variant-ligatures: common-ligatures;
+    font-weight: lighter;
+    font-size: 15rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.botao-explorar:hover {
-  background-color: #ff85c1;
+.pagina-inicial-conteudo__texto {
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-explorar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 20px;
+    padding: 12px 24px;
+    gap: 20px;
+    font-size: 1.2rem;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-explorar__icon {
+    font-size: 1.7rem;
+}
+
+.btn-explorar:hover {
+    background-color: #6b2146;
 }

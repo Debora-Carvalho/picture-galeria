@@ -40,7 +40,7 @@ const FiltroPesquisa = ({ categoriaSelecionada, setCategoria, corSelecionada, se
     setCor('');
   };
 
-  // Fecha dropdown ao clicar fora
+  // fecha dropdown ao clicar fora
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -59,7 +59,7 @@ const FiltroPesquisa = ({ categoriaSelecionada, setCategoria, corSelecionada, se
       {mostrarDropdown && (
         <div className="dropdown-filtro">
           <div className="filtro-section">
-            <label>Categoria</label>
+            <label className='filtro_section__label'>Categoria</label>
             <div className="categorias-opcoes">
               <div
                 className={`categoria-opcao ${categoriaSelecionada === '' ? 'selecionada' : ''}`}
@@ -81,7 +81,7 @@ const FiltroPesquisa = ({ categoriaSelecionada, setCategoria, corSelecionada, se
           </div>
 
           <div className="filtro-section">
-            <label>Cor</label>
+            <label className='filtro_section__label'>Cor</label>
             <div className="cores-opcoes">
               {coresDisponiveis.map(({ nome, emoji }) => (
                 <div
