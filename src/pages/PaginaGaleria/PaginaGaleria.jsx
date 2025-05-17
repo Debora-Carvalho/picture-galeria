@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import './PaginaGaleria.css';
+import { useNavigate } from 'react-router-dom';
 import BarraPesquisa from '../../components/BarraPesquisa/BarraPesquisa.jsx';
 import Galeria from '../../components/Galeria/Galeria.jsx';
 import ModalImagem from '../../components/ModalImagem/ModalImagem.jsx';
 import dadosImagens from '../../json/db-imagens.json';
 import FiltroPesquisa from '../../components/FiltroPesquisa/FiltroPesquisa.jsx';
+import Footer from '../../components/Footer/Footer.jsx';
 
 function PaginaGaleria() {
+    const navigate = useNavigate();
     const [imagemSelecionada, setImagemSelecionada] = useState(null);
     const [busca, setBusca] = useState('');
     const [categoriaFiltro, setCategoriaFiltro] = useState('');
@@ -66,34 +69,53 @@ function PaginaGaleria() {
   };
 
     return (
-    <>
-        <div className="container-galeria-filtros">
-            <BarraPesquisa
-                className='galeria-filtros-busca'
-                valor={busca}
-                aoMudar={setBusca}
-                sugestões={sugestoes}
-                aoSelecionar={aoSelecionarSugestao}
-                aoPesquisar={aoPesquisar}
-            />
+    <div className='container-pagina-galeria'>
+        <div className="container-galeria-cabecalho">
+            <div className="container-galeria-logo">
+                <p className='container-galeria-logo__texto' onClick={() => navigate('/')}>
+                    Picture
+                </p>
+            </div>
 
-            <FiltroPesquisa
-                categoriaSelecionada={categoriaFiltro}
-                setCategoria={setCategoriaFiltro}
-                corSelecionada={corFiltro}
-                setCor={setCorFiltro}
-            />
+            <div className="container-galeria-filtros">
+                <BarraPesquisa
+                    className='galeria-filtros-busca'
+                    valor={busca}
+                    aoMudar={setBusca}
+                    sugestões={sugestoes}
+                    aoSelecionar={aoSelecionarSugestao}
+                    aoPesquisar={aoPesquisar}
+                />
+
+                <FiltroPesquisa
+                    categoriaSelecionada={categoriaFiltro}
+                    setCategoria={setCategoriaFiltro}
+                    corSelecionada={corFiltro}
+                    setCor={setCorFiltro}
+                />
+            </div>
+
+            <div className="container-galeria-botoes">
+                <button className="galeria-botoes-login">Login</button>
+                <button className="galeria-botoes-cadastro">Cadastro</button>
+            </div>
         </div>
 
     {imagensFiltradas.length > 0 ? (
         <Galeria imagens={imagensFiltradas} aoClicar={setImagemSelecionada} />
     ) : (
         <p className='resultado-nao-encontrado__texto'>
-        Nenhuma imagem encontrada.
+            Nenhuma imagem encontrada.
         </p>
     )}
         <ModalImagem imagem={imagemSelecionada} aoFechar={() => setImagemSelecionada(null)} />
-    </>
+        <div className="container-pagina-galeria-footer">
+            <h1 className='container-pagina-galeria-footer__logo' onClick={() => navigate('/')}>
+                Picture
+            </h1>
+            <Footer />
+        </div>
+    </div>
     );
 }
 

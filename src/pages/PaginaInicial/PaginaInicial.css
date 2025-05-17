@@ -2,13 +2,12 @@
     width: 100vw;
     height: 100vh;
     background-image: url('../../assets/images/background-flores-rosa.jpg');
-    /* background-image: url('../../assets/images/background-flores-laranja.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     color: #fff;
     text-align: center;
 }
@@ -22,6 +21,22 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 12px;
+}
+
+.pagina-inicial-dev {
+    font-family: 'PinkSunset-Regular', sans-serif;
+    font-feature-settings: "liga" 1, "ss02" 1, "ss03" 1;
+    font-variant-ligatures: common-ligatures;
+    font-weight: lighter;  
+    font-size: 1.5rem;  
+}
+
+.conteudo-centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    margin: 5rem 0;
 }
 
 .pagina-inicial-conteudo__titulo {
@@ -61,4 +76,20 @@
 
 .btn-explorar:hover {
     background-color: #6b2146;
+}
+
+
+/* RESPONSIVIDADE : PAGINA INICIAL */
+@media (max-width: 768px) {
+    .conteudo-centro { 
+        margin: 8rem 0;
+    }
+
+    .pagina-inicial-conteudo__titulo {
+        font-size: 8rem;
+    }
+
+    .pagina-inicial-conteudo__texto {
+        font-size: 1.8rem;
+    }
 }
