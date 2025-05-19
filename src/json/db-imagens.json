@@ -8,7 +8,7 @@
         "categoria": "pessoa",
         "cores": ["rosa",  "marrom"],
         "tags": ["mulher", "flores", "rosa"],
-        "descricao": "Jovem mlher segurando buquê de flores em fundo rosa",
+        "descricao": "Jovem mulher segurando buquê de flores em fundo rosa",
         "autor": {
             "nome": "João Silva",
             "avatar": "https://i.pravatar.cc/100?img=8"
@@ -65,7 +65,7 @@
         "titulo": "Bolo de chocolate",
         "largura": 400,
         "altura": 500,
-        "categoria": "alimentos",
+        "categoria": "alimento",
         "cores": ["cinza", "branco", "preto", "marrom"],
         "tags": ["bolo", "chocolate", "amêndoas"],
         "descricao": "Uma deliciosa fatia de bolo de chocolate com amêndoas.",
