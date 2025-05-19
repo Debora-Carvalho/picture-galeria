@@ -16,9 +16,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
+    padding: 3rem 0;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 12px;
 }
@@ -36,7 +37,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;    
-    margin: 5rem 0;
 }
 
 .pagina-inicial-conteudo__titulo {
@@ -81,10 +81,6 @@
 
 /* RESPONSIVIDADE : PAGINA INICIAL */
 @media (max-width: 768px) {
-    .conteudo-centro { 
-        margin: 8rem 0;
-    }
-
     .pagina-inicial-conteudo__titulo {
         font-size: 8rem;
     }
