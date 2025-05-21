@@ -1,49 +1,41 @@
-.container-pagina-galeria {
+.container-pagina-extrair {
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    color: #fff;
+    text-align: center;
     max-width: 100vw;
     width: 100%;
     height: 100vh;  
+    overflow-y: hidden;
 }
 
-.container-galeria-filtros {
+.container-pagina-extrair-cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 40px;
-}
-
-.resultado-nao-encontrado__texto {
-    text-align: center;
-    margin: 3rem;
-}
-
-.container-galeria-cabecalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 1rem 3rem;
+    width: 100%;
     top: 0;
 }
 
-.container-galeria-logo__texto {
+.container-pagina-extrair-logo__texto {
     font-family: 'PinkSunset-Regular', sans-serif;
     font-feature-settings: "liga" 1, "ss01" 1, "ss02" 1, "ss03" 1;
     font-variant-ligatures: common-ligatures;
     font-weight: lighter;
     font-size: 2.5rem;
+    color: #000;
     cursor: pointer;
 }
 
-.container-galeria-logo__texto:hover {
+.container-pagina-extrair-logo__texto:hover {
     color: #ff69b4;
 }
 
-.container-galeria-botoes {
+.container-pagina-extrair-botoes {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -51,7 +43,7 @@
     gap: 20px;
 }
 
-.galeria-botoes-login, .galeria-botoes-cadastro {
+.pagina-extrair-botoes-login, .pagina-extrair-botoes-cadastro {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,27 +53,27 @@
     cursor: pointer;
 }
 
-.galeria-botoes-login {
+.pagina-extrair-botoes-login {
     background-color: transparent;
     color: #000;
     border: 2px solid #000;
 }
 
-.galeria-botoes-login:hover {
+.pagina-extrair-botoes-login:hover {
     color: #ff69b4;
     border: 1px solid #ff69b4;
 }
 
-.galeria-botoes-cadastro {
+.pagina-extrair-botoes-cadastro {
     background-color: #000;
     color: #fff;
 }
 
-.galeria-botoes-cadastro:hover {
+.pagina-extrair-botoes-cadastro:hover {
     background-color: #ff69b4;
 }
 
-.container-pagina-galeria-footer {
+.container-pagina-extrair-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,7 +84,7 @@
     bottom: 0;
 }
 
-.container-pagina-galeria-footer__logo {
+.container-pagina-extrair-footer__logo {
     font-family: 'PinkSunset-Regular', sans-serif;
     font-feature-settings: "liga" 1, "ss01" 1, "ss02" 1, "ss03" 1;
     font-variant-ligatures: common-ligatures;
@@ -102,7 +94,7 @@
     cursor: pointer;
 }
 
-.container-pagina-galeria-footer__logo:hover {
+.container-pagina-extrair-footer__logo:hover {
     color: #ff69b4;
 }
 
