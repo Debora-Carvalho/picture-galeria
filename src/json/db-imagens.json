@@ -6,8 +6,15 @@
         "largura": 400,
         "altura": 600,
         "categoria": "pessoa",
-        "cores": ["rosa",  "marrom"],
-        "tags": ["mulher", "flores", "rosa"],
+        "cores": [
+            "rosa",
+            "marrom"
+        ],
+        "tags": [
+            "mulher",
+            "flores",
+            "rosa"
+        ],
         "descricao": "Jovem mulher segurando buquê de flores em fundo rosa",
         "autor": {
             "nome": "João Silva",
@@ -21,8 +28,16 @@
         "largura": 400,
         "altura": 600,
         "categoria": "animal",
-        "cores": ["marrom", "branco"],
-        "tags": ["cachorro", "fofura", "pug", "cobertor"],
+        "cores": [
+            "marrom",
+            "branco"
+        ],
+        "tags": [
+            "cachorro",
+            "fofura",
+            "pug",
+            "cobertor"
+        ],
         "descricao": "Um cachorro da raça pug olha para a câmera deitado em seu cobertor",
         "autor": {
             "nome": "Ana Lima",
@@ -36,8 +51,15 @@
         "largura": 400,
         "altura": 600,
         "categoria": "plantas",
-        "cores": ["verde", "cinza", "branco"],
-        "tags": ["montanha", "pôr-do-sol"],
+        "cores": [
+            "verde",
+            "cinza",
+            "branco"
+        ],
+        "tags": [
+            "montanha",
+            "pôr-do-sol"
+        ],
         "descricao": "Belas flores brancas.",
         "autor": {
             "nome": "Robson Matos",
@@ -51,8 +73,19 @@
         "largura": 400,
         "altura": 500,
         "categoria": "pessoa",
-        "cores": ["verde", "cinza", "branco", "amarelo", "preto", "marrom"],
-        "tags": ["fotografia", "flores", "câmera"],
+        "cores": [
+            "verde",
+            "cinza",
+            "branco",
+            "amarelo",
+            "preto",
+            "marrom"
+        ],
+        "tags": [
+            "fotografia",
+            "flores",
+            "câmera"
+        ],
         "descricao": "Dois fotógrafos apontam suas câmeras para tulipas amarelas.",
         "autor": {
             "nome": "Simone Braga",
@@ -66,8 +99,17 @@
         "largura": 400,
         "altura": 500,
         "categoria": "alimento",
-        "cores": ["cinza", "branco", "preto", "marrom"],
-        "tags": ["bolo", "chocolate", "amêndoas"],
+        "cores": [
+            "cinza",
+            "branco",
+            "preto",
+            "marrom"
+        ],
+        "tags": [
+            "bolo",
+            "chocolate",
+            "amêndoas"
+        ],
         "descricao": "Uma deliciosa fatia de bolo de chocolate com amêndoas.",
         "autor": {
             "nome": "João Silva",
@@ -81,8 +123,15 @@
         "largura": 400,
         "altura": 600,
         "categoria": "animal",
-        "cores": ["laranja", "branco", "cinza"],
-        "tags": ["gato", "laranja"],
+        "cores": [
+            "laranja",
+            "branco",
+            "cinza"
+        ],
+        "tags": [
+            "gato",
+            "laranja"
+        ],
         "descricao": "Gato laranja encara a câmera olhando para cima.",
         "autor": {
             "nome": "João Silva",
@@ -96,8 +145,15 @@
         "largura": 1260,
         "altura": 750,
         "categoria": "pessoa",
-        "cores": ["marrom", "preto", "cinza"],
-        "tags": ["casal", "sofá"],
+        "cores": [
+            "marrom",
+            "preto",
+            "cinza"
+        ],
+        "tags": [
+            "casal",
+            "sofá"
+        ],
         "descricao": "Casal sorri descansando em sofá.",
         "autor": {
             "nome": "João Silva",
@@ -111,8 +167,20 @@
         "largura": 400,
         "altura": 600,
         "categoria": "paisagem",
-        "cores": ["marrom", "preto", "azul", "amarelo", "laranja"],
-        "tags": ["cafeteria", "van gogh", "pinturas", "quadros", "artista"],
+        "cores": [
+            "marrom",
+            "preto",
+            "azul",
+            "amarelo",
+            "laranja"
+        ],
+        "tags": [
+            "cafeteria",
+            "van gogh",
+            "pinturas",
+            "quadros",
+            "artista"
+        ],
         "descricao": "Quadros na parede de cafeteria de pinturas do artista Van Gogh.",
         "autor": {
             "nome": "João Silva",
@@ -126,8 +194,15 @@
         "largura": 400,
         "altura": 600,
         "categoria": "plantas",
-        "cores": ["rosa", "preto"],
-        "tags": ["flores", "rosa", "campo"],
+        "cores": [
+            "rosa",
+            "preto"
+        ],
+        "tags": [
+            "flores",
+            "rosa",
+            "campo"
+        ],
         "descricao": "Vista próxima de flores cor de rosa com gotas de água.",
         "autor": {
             "nome": "João Silva",
@@ -141,8 +216,16 @@
         "largura": 1260,
         "altura": 750,
         "categoria": "animal",
-        "cores": ["vermelho", "preto"],
-        "tags": ["natureza", "vermelho", "peixe", "aquático"],
+        "cores": [
+            "vermelho",
+            "preto"
+        ],
+        "tags": [
+            "natureza",
+            "vermelho",
+            "peixe",
+            "aquático"
+        ],
         "descricao": "Pequeno peixe vermelho em fundo preto.",
         "autor": {
             "nome": "João Silva",
@@ -156,8 +239,18 @@
         "largura": 1260,
         "altura": 750,
         "categoria": "pessoa",
-        "cores": ["rosa", "azul", "vermelho", "marrom"],
-        "tags": ["óculos", "mulher", "milkshake", "cafeteria"],
+        "cores": [
+            "rosa",
+            "azul",
+            "vermelho",
+            "marrom"
+        ],
+        "tags": [
+            "óculos",
+            "mulher",
+            "milkshake",
+            "cafeteria"
+        ],
         "descricao": "Mulher segura milshake encarando a câmera com seus óculos escuros em cafeteria.",
         "autor": {
             "nome": "João Silva",
@@ -171,8 +264,17 @@
         "largura": 1260,
         "altura": 750,
         "categoria": "paisagem",
-        "cores": ["azul", "branco"],
-        "tags": ["icebergs", "frio", "geleiras", "águas", "islândia"],
+        "cores": [
+            "azul",
+            "branco"
+        ],
+        "tags": [
+            "icebergs",
+            "frio",
+            "geleiras",
+            "águas",
+            "islândia"
+        ],
         "descricao": "Icebergs flutuam nas águas da Islândia.",
         "autor": {
             "nome": "João Silva",
@@ -186,8 +288,15 @@
         "largura": 1260,
         "altura": 750,
         "categoria": "pessoa",
-        "cores": ["preto", "marrom", "laranja"],
-        "tags": ["casal", "pôr-do-sol"],
+        "cores": [
+            "preto",
+            "marrom",
+            "laranja"
+        ],
+        "tags": [
+            "casal",
+            "pôr-do-sol"
+        ],
         "descricao": "Casal se abraça em bela paisagem do por-do-sol",
         "autor": {
             "nome": "João Silva",
@@ -201,8 +310,16 @@
         "largura": 400,
         "altura": 600,
         "categoria": "objeto",
-        "cores": ["rosa", "branco", "preto"],
-        "tags": ["moto", "parede", "rosa"],
+        "cores": [
+            "rosa",
+            "branco",
+            "preto"
+        ],
+        "tags": [
+            "moto",
+            "parede",
+            "rosa"
+        ],
         "descricao": "Scooter Rosa Estacionada Ao Lado Da Parede De Concreto Rosa",
         "autor": {
             "nome": "João Silva",
@@ -216,23 +333,36 @@
         "largura": 400,
         "altura": 600,
         "categoria": "pessoa",
-        "cores": ["rosa",  "azul"],
-        "tags": ["mulher", "donut", "rosa"],
+        "cores": [
+            "rosa",
+            "azul"
+        ],
+        "tags": [
+            "mulher",
+            "donut",
+            "rosa"
+        ],
         "descricao": "Mulher cobrindo o rosto com donut cor de rosa.",
         "autor": {
             "nome": "João Silva",
             "avatar": "https://i.pravatar.cc/100?img=3"
         }
     },
-        {
+    {
         "id": 16,
         "url": "https://picsum.photos/id/1015/400/600",
         "titulo": "Montanhas ao entardecer",
         "largura": 400,
         "altura": 600,
         "categoria": "paisagem",
-        "cores": ["azul", "cinza"],
-        "tags": ["montanha", "pôr-do-sol"],
+        "cores": [
+            "azul",
+            "cinza"
+        ],
+        "tags": [
+            "montanha",
+            "pôr-do-sol"
+        ],
         "descricao": "Uma bela paisagem montanhosa.",
         "autor": {
             "nome": "João Silva",
@@ -246,8 +376,15 @@
         "largura": 400,
         "altura": 500,
         "categoria": "alimento",
-        "cores": ["vermelho", "preto", "verde"],
-        "tags": ["tomate", "mão"],
+        "cores": [
+            "vermelho",
+            "preto",
+            "verde"
+        ],
+        "tags": [
+            "tomate",
+            "mão"
+        ],
         "descricao": "Pessoa segura tomates vermelhos.",
         "autor": {
             "nome": "João Silva",
@@ -261,8 +398,16 @@
         "largura": 1260,
         "altura": 450,
         "categoria": "paisagem",
-        "cores": ["amarelo", "azul", "verde"],
-        "tags": ["girassol", "flores", "campo"],
+        "cores": [
+            "amarelo",
+            "azul",
+            "verde"
+        ],
+        "tags": [
+            "girassol",
+            "flores",
+            "campo"
+        ],
         "descricao": "Paisagem de campo florido com girassóis.",
         "autor": {
             "nome": "Otávio Bragança",
@@ -276,8 +421,17 @@
         "largura": 400,
         "altura": 600,
         "categoria": "animal",
-        "cores": ["amarelo", "azul", "verde", "preto"],
-        "tags": ["arara", "ave", "azul"],
+        "cores": [
+            "amarelo",
+            "azul",
+            "verde",
+            "preto"
+        ],
+        "tags": [
+            "arara",
+            "ave",
+            "azul"
+        ],
         "descricao": "Foto focada em arará azul.",
         "autor": {
             "nome": "Arthur Silva",
@@ -291,8 +445,17 @@
         "largura": 1260,
         "altura": 750,
         "categoria": "paisagem",
-        "cores": ["azul", "laranja", "preto"],
-        "tags": ["edificio", "cidade", "noite", "luzes"],
+        "cores": [
+            "azul",
+            "laranja",
+            "preto"
+        ],
+        "tags": [
+            "edificio",
+            "cidade",
+            "noite",
+            "luzes"
+        ],
         "descricao": "Edificios altos iluminados à noite.",
         "autor": {
             "nome": "Alex Barbosa",
@@ -306,8 +469,17 @@
         "largura": 400,
         "altura": 500,
         "categoria": "pessoa",
-        "cores": ["azul", "roxo"],
-        "tags": ["mulher", "maquiagem", "gliter", "brilho", "luz colorida"],
+        "cores": [
+            "azul",
+            "roxo"
+        ],
+        "tags": [
+            "mulher",
+            "maquiagem",
+            "gliter",
+            "brilho",
+            "luz colorida"
+        ],
         "descricao": "Foto de moça negra com maquiagem brilhante em luz azul.",
         "autor": {
             "nome": "Jessica Souza",
@@ -321,11 +493,263 @@
         "largura": 400,
         "altura": 500,
         "categoria": "objeto",
-        "cores": ["preto", "branco", "cinza"],
-        "tags": ["xadrez", "tabuleiro", "mesa", "jogo"],
+        "cores": [
+            "preto",
+            "branco",
+            "cinza"
+        ],
+        "tags": [
+            "xadrez",
+            "tabuleiro",
+            "mesa",
+            "jogo"
+        ],
         "descricao": "Fotografia em tons de cinza de tabuleiro de jogo de xadrez.",
         "autor": {
             "nome": "Anástacia Gomes",
+            "avatar": "https://i.pravatar.cc/100?img=f"
+        }
+    },
+    {
+        "id": 23,
+        "url": "https://images.pexels.com/photos/32117654/pexels-photo-32117654/free-photo-of-rustic-yellow-scooter-by-riverside-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "titulo": "Motocicleta amarela",
+        "largura": 628,
+        "altura": 920,
+        "categoria": "objeto",
+        "cores": [
+            "amarelo"
+        ],
+        "tags": [
+            "motocicleta",
+            "lago",
+            "honda"
+        ],
+        "descrição": "Fotografia de uma motocicleta amarela enfrente ao lago.",
+        "nome": "Anástacia Gomes",
+        "autor": {
+            "avatar": "https://i.pravatar.cc/100?img=f"
+        }
+    },
+    {
+        "id": 24,
+        "url": "https://images.pexels.com/photos/32147608/pexels-photo-32147608/free-photo-of-vibrant-yellow-birdhouse-on-tree-branch-outdoors.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "titulo": "Casa de passarinho amarela",
+        "largura": 1361,
+        "altura": 907,
+        "categoria": "paisagem",
+        "cores": [
+            "amarelo",
+            "verde"
+        ],
+        "tags": [
+            "floresta",
+            "casa",
+            "passarinho",
+            "floresta"
+        ],
+        "descrição": "casa de passarinho na floresta.",
+        "nome": "Anástacia Gomes",
+        "autor": {
+            "avatar": "https://i.pravatar.cc/100?img=f"
+        }
+    },
+    {
+        "id": 25,
+        "url": "https://images.pexels.com/photos/32128733/pexels-photo-32128733/free-photo-of-single-yellow-flower-on-soft-blue-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "titulo": "Flor amarela",
+        "largura": 697,
+        "altura": 920,
+        "categoria": "planta",
+        "cores": [
+            "amarelo",
+            "verde"
+        ],
+        "tags": [
+            "flor"
+        ],
+        "descrição": "paisagem de flor amarela.",
+        "nome": "Anástacia Gomes",
+        "autor": {
+            "avatar": "https://i.pravatar.cc/100?img=f"
+        }
+    },
+    {
+        "id": 26,
+        "url": "https://images.pexels.com/photos/32111370/pexels-photo-32111370/free-photo-of-elegant-woman-holding-fresh-green-olives.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "titulo": "Azeitona verde",
+        "largura": 1000,
+        "altura": 1500,
+        "categoria": "alimento",
+        "cores": [
+            "verde",
+            "branco"
+        ],
+        "tags": [
+            "azeitona verde"
+        ],
+        "descrição": "mulher segurando azeitona verde.",
+        "nome": "Anástacia Gomes",
+        "autor": {
+            "avatar": "https://i.pravatar.cc/100?img=f"
+        }
+    },
+    {
+        "id": 27,
+        "url": "https://images.pexels.com/photos/4113130/pexels-photo-4113130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "titulo": "Pink drink with lemon",
+        "largura": 1000,
+        "altura": 1500,
+        "categoria": "alimento",
+        "cores": [
+            "rosa",
+            "verde"
+        ],
+        "tags": [
+            "bebida",
+            "limão",
+            "folha"
+        ],
+        "descrição": "bebida rosa com limão.",
+        "nome": "Anástacia Gomes",
+        "autor": {
+            "avatar": "https://i.pravatar.cc/100?img=f"
+        }
+    },
+    {
+        "id": 28,
+        "url": "https://images.pexels.com/photos/31630001/pexels-photo-31630001/free-photo-of-refreshing-pink-drinks-on-outdoor-patio-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "titulo": "Bebida rosa",
+        "largura": 399,
+        "altura": 532,
+        "categoria": "alimento",
+        "cores": [
+            "rosa",
+            "branco",
+            "verde"
+        ],
+        "tags": [
+            "flores",
+            "bebida",
+            "cadeiras",
+            "mesa"
+        ],
+        "descrição": "tomando um refresco.",
+        "nome": "Anástacia Gomes",
+        "autor": {
+            "avatar": "https://i.pravatar.cc/100?img=f"
+        }
+    },
+    {
+        "id": 29,
+        "url": "https://images.pexels.com/photos/32158028/pexels-photo-32158028/free-photo-of-beautiful-pink-roses-in-bloom-outdoors.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "titulo": "Flores rosa",
+        "largura": 399,
+        "altura": 532,
+        "categoria": "plantas",
+        "cores": [
+            "rosa",
+            "verde"
+        ],
+        "tags": [
+            "flores",
+            "floresta"
+        ],
+        "descrição": "flores rosa na floresta.",
+        "nome": "Anástacia Gomes",
+        "autor": {
+            "avatar": "https://i.pravatar.cc/100?img=f"
+        }
+    },
+    {
+        "id": 30,
+        "url": "https://images.pexels.com/photos/32163616/pexels-photo-32163616/free-photo-of-close-up-of-vibrant-red-roses-in-bloom.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "titulo": "Flores vermelhas",
+        "largura": 399,
+        "altura": 532,
+        "categoria": "planta",
+        "cores": [
+            "vermelho",
+            "verde"
+        ],
+        "tags": [
+            "rosas vermelhas",
+            "flores",
+            "floresta"
+        ],
+        "descrição": "rosas vermelhas na floresta.",
+        "nome": "Anástacia Gomes",
+        "autor": {
+            "avatar": "https://i.pravatar.cc/100?img=f"
+        }
+    },
+    {
+        "id": 31,
+        "url": "https://images.pexels.com/photos/9584971/pexels-photo-9584971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "titulo": "Lemon drink",
+        "largura": 399,
+        "altura": 400,
+        "categoria": "alimento",
+        "cores": [
+            "verde"
+        ],
+        "tags": [
+            "bebida",
+            "mesa",
+            "folha"
+        ],
+        "descrição": "limonada com pedaços de limão.",
+        "nome": "Anástacia Gomes",
+        "autor": {
+            "avatar": "https://i.pravatar.cc/100?img=f"
+        }
+    },
+    {
+        "id": 32,
+        "url": "https://images.pexels.com/photos/2362391/pexels-photo-2362391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "titulo": "Ice drink",
+        "largura": 399,
+        "altura": 598,
+        "categoria": "alimento",
+        "cores": [
+            "vermelho",
+            "verde"
+        ],
+        "tags": [
+            "mesa",
+            "restaurante",
+            "bebidas"
+        ],
+        "descrição": "bebidas geladas com limão",
+        "nome": "Anástacia Gomes",
+        "autor": {
+            "avatar": "https://i.pravatar.cc/100?img=f"
+        }
+    },
+    {
+        "id": 33,
+        "url": "https://images.pexels.com/photos/11803610/pexels-photo-11803610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "titulo": "Cubo Magico",
+        "largura": 399,
+        "altura": 266,
+        "categoria": "objeto",
+        "cores": [
+            "vemelho",
+            "verde",
+            "branco",
+            "azul",
+            "amarelo",
+            "laranja"
+        ],
+        "tags": [
+            "floresta",
+            "objeto",
+            "brinquedo",
+            "folhas"
+        ],
+        "descrição": "cubo magico na floresta.",
+        "nome": "Anástacia Gomes",
+        "autor": {
             "avatar": "https://i.pravatar.cc/100?img=f"
         }
     }
