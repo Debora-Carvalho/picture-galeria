@@ -3,6 +3,7 @@ import './PaginaExtrairPaleta.css';
 import { useNavigate } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer.jsx';
 import ExtrairPaleta from '../../components/ExtrairPaleta/ExtrairPaleta.jsx';
+import { HiOutlinePhotograph } from 'react-icons/hi';
 
 function PaginaExtrairPaleta() {
     const navigate = useNavigate();
@@ -17,8 +18,8 @@ function PaginaExtrairPaleta() {
                 </div>
 
                 <div className="container-pagina-extrair-botoes">
-                    <button className="pagina-extrair-botoes-galeria" onClick={() => navigate('/galeria')}>
-                        Extrair
+                    <button className="pagina-extrair-botoes-galeria" onClick={() => navigate('/galeria')}  title='Ir à pagina de Galeria'>
+                        <HiOutlinePhotograph />
                     </button>
                     <button className="pagina-extrair-botoes-login">Login</button>
                     <button className="pagina-extrair-botoes-cadastro">Cadastro</button>

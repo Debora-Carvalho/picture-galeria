@@ -7,6 +7,7 @@ import ModalImagem from '../../components/ModalImagem/ModalImagem.jsx';
 import dadosImagens from '../../json/db-imagens.json';
 import FiltroPesquisa from '../../components/FiltroPesquisa/FiltroPesquisa.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
+import { BiPalette } from 'react-icons/bi';
 
 function PaginaGaleria() {
     const navigate = useNavigate();
@@ -96,8 +97,8 @@ function PaginaGaleria() {
                 </div>
 
                 <div className="container-galeria-botoes">
-                    <button className="galeria-botoes-extrair" onClick={() => navigate('/extrair-paleta')}>
-                        Extrair
+                    <button className="galeria-botoes-extrair" onClick={() => navigate('/extrair-paleta')} title='Ir à pagina Extrair Paleta de Cores'>
+                        <BiPalette />
                     </button>
                     <button className="galeria-botoes-login">Login</button>
                     <button className="galeria-botoes-cadastro">Cadastro</button>

@@ -73,6 +73,15 @@
     background-color: #ff69b4;
 }
 
+.pagina-extrair-botoes-galeria {
+    font-size: 2.5rem;
+    color: #000;    
+}
+
+.pagina-extrair-botoes-galeria:hover {
+    color: #ff69b4;    
+}
+
 .container-pagina-extrair-footer {
     display: flex;
     flex-direction: column;
