@@ -57,7 +57,7 @@ function ExtrairPaleta() {
 
             <p className='container-paleta__texto'>
                 A ferramenta Paleta Mágica permite extrair a paleta de cores contida em uma imagem.
-                Você pode arrastar uma imagem para a caixa abaixo ou seleciona-la de seu computador.
+                Você pode arrastar uma imagem para a caixa abaixo ou seleciona-la de seu dispositivo.
                 Copie o código da cor em <strong>RGB</strong> e <strong>HEX</strong> ao clicar no código abaixo da caixa de cor.
             </p>
 
