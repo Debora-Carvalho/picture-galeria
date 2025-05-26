@@ -139,3 +139,13 @@
     }
 }
 
+@media (max-width: 680px) {
+    .container-galeria-filtros__responsivo {
+        gap: 10px;
+    }   
+    
+    .galeria-botoes-login, .galeria-botoes-cadastro {
+        display: none;
+    }
+}
+

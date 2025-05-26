@@ -56,6 +56,17 @@
 @media (max-width: 720px) {
     .barra-pesquisa-container {
         max-width: 450px;
-        margin: 20px 0;
     }   
+}
+
+@media (max-width: 600px) {
+    .barra-pesquisa-container {
+        max-width: 280px;
+    }    
+}
+
+@media (max-width: 400px) {
+    .barra-pesquisa-container {
+        max-width: 220px;
+    }    
 }

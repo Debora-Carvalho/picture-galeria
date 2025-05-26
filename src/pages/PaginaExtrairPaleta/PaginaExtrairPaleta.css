@@ -108,3 +108,8 @@
     color: #ff69b4;
 }
 
+@media (max-width: 680px) {
+    .pagina-extrair-botoes-login, .pagina-extrair-botoes-cadastro {
+        display: none;
+    }
+}
