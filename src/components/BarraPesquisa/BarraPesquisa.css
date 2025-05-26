@@ -51,3 +51,11 @@
 .lista-sugestoes li:hover {
     background-color: #eee;
 }
+
+/* RESPONSIVIDADE: BARRA DE PESQUISA */
+@media (max-width: 720px) {
+    .barra-pesquisa-container {
+        max-width: 450px;
+        margin: 20px 0;
+    }   
+}

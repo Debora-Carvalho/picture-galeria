@@ -16,6 +16,10 @@
     gap: 40px;
 }
 
+.container-galeria-filtros__responsivo {
+    display: none;
+}
+
 .resultado-nao-encontrado__texto {
     text-align: center;
     margin: 3rem;
@@ -113,5 +117,25 @@
 
 .container-pagina-galeria-footer__logo:hover {
     color: #ff69b4;
+}
+
+/* RESPONSIVIDADE: PÁGINA DA GALERIA DE FOTOS */
+@media (max-width: 720px) {
+    .container-galeria-filtros {
+        display: none;
+    }    
+
+    .container-galeria-filtros__responsivo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 40px;
+    }
+
+    .container-galeria-cabecalho {
+        justify-content: space-between;
+    }
 }
 

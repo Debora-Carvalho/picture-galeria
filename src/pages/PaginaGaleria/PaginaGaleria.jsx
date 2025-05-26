@@ -105,6 +105,24 @@ function PaginaGaleria() {
                 </div>
             </div>
 
+            <div className="container-galeria-filtros__responsivo">
+                <BarraPesquisa
+                    className='galeria-filtros-busca__responsivo'
+                    valor={busca}
+                    aoMudar={setBusca}
+                    sugestões={sugestoes}
+                    aoSelecionar={aoSelecionarSugestao}
+                    aoPesquisar={aoPesquisar}
+                />
+
+                <FiltroPesquisa
+                    categoriaSelecionada={categoriaFiltro}
+                    setCategoria={setCategoriaFiltro}
+                    corSelecionada={corFiltro}
+                    setCor={setCorFiltro}
+                />
+            </div>
+
             {imagensFiltradas.length > 0 ? (
                 <Galeria imagens={imagensFiltradas} aoClicar={setImagemSelecionada} />
             ) : (
