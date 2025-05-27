@@ -101,6 +101,7 @@ function PaginaGaleria() {
                     <button className="galeria-botoes-extrair" onClick={() => navigate('/extrair-paleta')} title='Ir à pagina Extrair Paleta de Cores'>
                         <BiPalette />
                     </button>
+                    
                     <button className="galeria-botoes-login">Login</button>
                     <button className="galeria-botoes-cadastro">Cadastro</button>
                     

@@ -22,6 +22,10 @@
     top: 0;
 }
 
+.pagina-extrair-botao-navbar {
+    color: #000;
+}
+
 .container-pagina-extrair-logo__texto {
     font-family: 'PinkSunset-Regular', sans-serif;
     font-feature-settings: "liga" 1, "ss01" 1, "ss02" 1, "ss03" 1;

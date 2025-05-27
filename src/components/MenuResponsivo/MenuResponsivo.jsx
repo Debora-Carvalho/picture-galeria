@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './MenuResponsivo.css';
 import Drawer from "@mui/material/Drawer";
 import Box from "@mui/material/Box";
@@ -6,8 +7,18 @@ import { HiBars3 } from "react-icons/hi2";
 import { FiFacebook, FiInstagram } from 'react-icons/fi';
 import { ImPinterest2 } from "react-icons/im";
 import { RiCloseLargeFill } from "react-icons/ri";
+import { BsStars } from "react-icons/bs";
 
 function MenuResponsivo () {
+    const navigate = useNavigate();
+      
+    const rotas = {
+        'Galeria': '/galeria',
+        'Paleta mágica': '/extrair-paleta',
+        'Login': '/login',
+        'Cadastro': '/cadastro',
+    };
+
     const [openMenu, setOpenMenu] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
 
@@ -35,7 +46,7 @@ function MenuResponsivo () {
                 }}           
             >
                 <Box
-                    sx={{ width: 800}}
+                    sx={{ width: 700}}
                     role="presentation"
                     onClick={() => setOpenMenu(false)}
                     onKeyDown={() => setOpenMenu(false)}
@@ -46,27 +57,23 @@ function MenuResponsivo () {
                         <div className={`container-menu-responsivo-items ${isOpen ? 'open' : ''}`}>
                             <div className="menu-responsivo-cabecalho">
                                 <RiCloseLargeFill className='menu-responsivo-fechar__icon'/>
-                                <p className='menu-responsivo-cabecalho__texto'>
+                                <p className='menu-responsivo-cabecalho__texto' onClick={() => navigate('/')}>
                                     Picture
                                 </p>
                             </div>
 
                             <div className="menu-responsivo-items">
-                                <button className='btn-menu-responsivo'>
-                                    Galeria
+                            {Object.entries(rotas).map(([nome, rota], index) => (
+                                <button
+                                className="btn-menu-responsivo"
+                                key={index}
+                                onClick={() => navigate(rota)}
+                                >
+                                <BsStars className="estrela-hover" />
+                                <span className="texto-botao">{nome}</span>
+                                <BsStars className="estrela-hover" />
                                 </button>
-
-                                <button className='btn-menu-responsivo'>
-                                    Paleta mágica
-                                </button>
-
-                                <button className='btn-menu-responsivo'>
-                                    Login
-                                </button>
-
-                                <button className='btn-menu-responsivo'>
-                                    Cadastro
-                                </button>
+                            ))}
                             </div>
 
                             <div className="menu-responsivo-footer">

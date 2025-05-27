@@ -13,6 +13,7 @@
 
 .container-menu-responsivo__icon {
     font-size: 40px;
+    cursor: pointer;
 }
 
 .container-menu-responsivo-aberta {
@@ -23,7 +24,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    align-items: end;
+    align-items: center;
     justify-content: space-between;
     padding: 4rem;
     border-radius: 20px 0 0 20px;
@@ -38,6 +39,16 @@
     height: 3vh;
     padding: 0;
     gap: 20px;
+}
+
+.menu-responsivo-fechar__icon {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.menu-responsivo-fechar__icon:hover {
+    color: #ff69b4;
 }
 
 .menu-responsivo-cabecalho__texto {
@@ -62,9 +73,34 @@
 }
 
 .btn-menu-responsivo {
-    font-size: 4rem;
+    font-size: 3.2rem;
     color: #000;
     text-transform: uppercase;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.texto-botao {
+    margin: 0 0.5rem;
+}
+
+.estrela-hover {
+  color: #000;
+  font-size: 1.8rem;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Mostra a estrela ao passar o mouse */
+.btn-menu-responsivo:hover .estrela-hover {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .menu-responsivo-footer {
