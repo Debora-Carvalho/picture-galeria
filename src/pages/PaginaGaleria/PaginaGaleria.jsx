@@ -8,7 +8,7 @@ import dadosImagens from '../../json/db-imagens.json';
 import FiltroPesquisa from '../../components/FiltroPesquisa/FiltroPesquisa.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
 import { BiPalette } from 'react-icons/bi';
-import { HiBars3 } from "react-icons/hi2";
+import MenuResponsivo from '../../components/MenuResponsivo/MenuResponsivo.jsx';
 
 function PaginaGaleria() {
     const navigate = useNavigate();
@@ -104,9 +104,9 @@ function PaginaGaleria() {
                     <button className="galeria-botoes-login">Login</button>
                     <button className="galeria-botoes-cadastro">Cadastro</button>
                     
-                    {/* <div className="galeria-container-botao-navbar">
-
-                    </div> */}
+                    <div className="galeria-container-botao-navbar">
+                        <MenuResponsivo />
+                    </div>
                 </div>
             </div>
 
