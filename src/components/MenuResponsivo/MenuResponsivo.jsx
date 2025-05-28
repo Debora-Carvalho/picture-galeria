@@ -46,7 +46,17 @@ function MenuResponsivo () {
                 }}           
             >
                 <Box
-                    sx={{ width: 700}}
+                    sx={{
+                        width: {
+                            xs: '100vw',
+                            sm: '80vw',
+                            md: 800,
+                        },
+                        maxWidth: '100%',
+                        height: '100vh',
+                        overflowY: 'hidden',
+                        padding: 2,
+                    }}
                     role="presentation"
                     onClick={() => setOpenMenu(false)}
                     onKeyDown={() => setOpenMenu(false)}

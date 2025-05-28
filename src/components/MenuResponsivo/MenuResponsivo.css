@@ -76,6 +76,7 @@
     font-size: 3.2rem;
     color: #000;
     text-transform: uppercase;
+    white-space: nowrap;
 
     position: relative;
     display: flex;
@@ -128,3 +129,10 @@
 .btn-menu-responsivo-footer__icon:hover {
     color: #ff69b4;
 }
+
+/* RESPONSIVIDADE - MENU RESPONSIVO */
+@media (max-width: 720px) {
+    .btn-menu-responsivo {
+        font-size: 2.8rem;
+    }    
+} 
